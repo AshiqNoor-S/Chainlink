@@ -1,0 +1,93 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background: linear-gradient(#311ff1, #736cf1, #9d98f1); 
+}
+
+.page {
+    padding: 2% 8%;
+}
+
+.white-txt {
+    color: #fff;
+}
+
+/* Hero Section */
+#hero {
+
+}
+
+#hero-column-1 {
+    width: 55%;
+    display: block;
+    margin: auto;
+    /* vertical-align: middle; */
+    margin-top: 1%;
+}
+
+#hero-column-2 {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+#hero-image {
+    clear: right;
+    width: 300px;
+}
+
+#id-stats-display {
+    clear: left;
+    margin-top: 1%;
+    padding: 1% 0 30%;
+}
+
+.player-id-input {
+    float: left;
+    margin-top: 1%;
+}
+
+.output {
+    float: right;
+    margin-right: 10%;
+    padding: 10% 12%;
+    border: 1px solid black;
+}
+
+/* About Us */
+#about-us {
+    clear: left;
+}
+
+.column {
+    /* float: left; */
+    width: 20%;
+    height: 250px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+.row {
+    padding-top: 2%;
+}
+
+.name-column {
+    width: 20%;
+    display: block;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+#about-us h1 {
+    padding-top: 1%;
+}
+
+#about-us p {
+    font-size: 1.2rem;
+}
+
+/* Footer Section */
+#footer {
+    background-color: ;
+}
