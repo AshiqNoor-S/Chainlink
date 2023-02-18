@@ -34,8 +34,8 @@ contract apicall is ChainlinkClient, ConfirmedOwner(0x35891d4E470552d80fBFA818c4
     function requestVolumeData() public returns (bytes32 requestId) 
     {
         Chainlink.Request memory request = buildChainlinkRequest(jobId, address(this), this.fulfill.selector);
-        request.add("get", "https://reqres.in/api/products/3");   //Insert api link here
-        request.add("path", "data.id");       // according to the json file
+        request.add("get", "http://127.0.0.1:3000/predict");   //Insert api link here
+        request.add("path", "json_.prediction");       // according to the json file
         // request.addInt("times",10);
         return sendChainlinkRequestTo(oracle, request, fee);
 
